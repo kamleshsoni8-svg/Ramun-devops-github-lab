@@ -420,4 +420,3 @@
   419  git remote set-url origin Ramun-devops
   420  git remote -v
   421  git push origin master
-  422  histor
