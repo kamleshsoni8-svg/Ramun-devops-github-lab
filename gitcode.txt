@@ -1,0 +1,410 @@
+ 1  ls
+    2  df -h
+    3  free -h
+    4  mkdir Ramun_devops
+    5  cd Ramun_devops/
+    6  touch devops.txt
+    7  ls
+    8  rm devops.txt 
+    9  ls
+   10  cd ..
+   11  ls
+   12  rm -r Ramun_devops/
+   13  ls
+   14  exit 
+   15  ls
+   16  mkdir Ramun_devops
+   17  cd ramun-devops/
+   18  ls
+   19  cd -
+   20  ls
+   21  rm -r ramun-devops/
+   22  ls
+   23  cd Ramun_devops/
+   24  ls
+   25  mkdir devops-1
+   26  mkdir doucker_1
+   27  mkdir terraform_1
+   28  ls
+   29  cd devops-1/
+   30  touch devops_test1.txt
+   31  touch devops_test2.txt
+   32  cd-
+   33  cd ~
+   34  ls
+   35  /mnt/c/Users/DELL\ 3420/Ramun_devops/devops-1/
+   36  exit 
+   37  cd Ramun_devops/devops-1/
+   38  ls
+   39  vi devops_test
+   40  nano devops_test1.txt 
+   41  nano devops_test2.txt
+   42  exit 
+   43  cd Ramun_devops/
+   44  cd devops-1/
+   45  ls
+   46  nano devops_test2.txt 
+   47  cd Ramun_devops/
+   48  ls
+   49  cd devops-1/
+   50  ls
+   51  rm devops_test
+   52  ls
+   53  ls -l
+   54  ls -a
+   55  ls -la
+   56  ls -lh
+   57  ls -it
+   58  ls -r
+   59  ls -R
+   60  ls devops_test
+   61  cd ..
+   62  ls -R
+   63  cd Ramun_devops/
+   64  ls -R
+   65  ls devops-1/
+   66  cd devops-1/
+   67  cd ..
+   68  cd ~
+   69  cd -
+   70  /mnt/c/Users/DELL\ 3420/
+   71  ls
+   72  cd /mnt/
+   73  cd c/Users/DELL\ 3420/
+   74  cd Ramun_devops/
+   75  cd devops-1/
+   76  cd -
+   77  cd ../..
+   78  cd Ramun_devops/
+   79  cd devops-1/
+   80  pwd
+   81  whoiam
+   82  cd ~
+   83  whoiam
+   84  cd /mnt/c/Users/DELL\ 3420/
+   85  cd Ramun_devops/
+   86  cd devops-1/
+   87  mkdir test kamlesh
+   88  ls
+   89  rm -r kamlesh/
+   90  rm -r test/
+   91  ls
+   92  mkdir -v test
+   93  rm -r test/
+   94  ls
+   95  mkdir -m 755 test
+   96  ls
+   97  ls -la
+   98  rm -r test/
+   99  ls
+  100  mkdir -p kamlesh/jio/ciena/ciena-nms
+  101  ls
+  102  cd kamlesh/jio/ciena/ciena-nms/
+  103  cd -
+  104  ls
+  105  rm -r kamlesh/jio/ciena/ciena-nms/
+  106  ls
+  107  cd kamlesh/
+  108  cd jio/
+  109  cd ../..
+  110  ls
+  111  rm -p kamlesh/jio/ciena/
+  112  rm -p kamlesh/jio/
+  113  rmdir -p kamlesh/jio/ciena/
+  114  ls
+  115  cd test1
+  116  mkdir test1
+  117  cd test1/
+  118  touch jio.txt airtel.txt
+  119  touch app.py
+  120  ls
+  121  touch .env
+  122  ls
+  123  ls -a
+  124  touch -t 202608070910 voda.txt
+  125  ls
+  126  ls -a
+  127  touch existing file.txt
+  128  ls
+  129  rm airtel.txt app.py existing file.txt jio.txt voda.txt 
+  130  ls
+  131  cd ..
+  132  rm -r test1/
+  133  ls
+  134  cat devops_test1.txt 
+  135  cat devops_test1.txt devops_test2.txt 
+  136  cat -n devops_test1.txt 
+  137  cat -b devops_test1.txt 
+  138  echo "hello"
+  139  echo "hello" > devops_test1.txt 
+  140  head devops_test1.txt 
+  141  head devops_test2.txt 
+  142  head devops_test1.txt 
+  143  head -5 devops_test2.txt 
+  144  head -n 20 devops_test2.txt 
+  145  head -c 50 devops_test2.txt 
+  146  tail devops_test2.txt 
+  147  tail -f devops_test2.txt 
+  148  less
+  149  less devops_test2.txt 
+  150  more devops_test2.txt 
+  151  ls
+  152  cp devops_test1.txt devops_test2.txt 
+  153  ls
+  154  cat devops_test1.txt 
+  155  cp devops_test2.txt devops_test1.txt 
+  156  cat devops_test1.txt 
+  157  mv devops_test1.txt devops_test2
+  158  ls
+  159  cat devops_test2
+  160  cat devops_test2.txt 
+  161  nano devops_test2.txt 
+  162  cat devops_test2.txt 
+  163  wc devops_test2.txt 
+  164  wc-l devops_test2.txt 
+  165  wc -l devops_test2.txt 
+  166  wc -w devops_test2.txt 
+  167  wc -c devops_test2.txt 
+  168  wc -m devops_test2.txt 
+  169  ls
+  170  touch test
+  171  ls
+  172  ln test hardlink.txt
+  173  ls
+  174  ln -s test softlink.txt
+  175  ls
+  176  cat softlink.txt 
+  177  cut devops_test2.txt 
+  178  cut -c devops_test2.txt 
+  179  cut -c 1-5 devops_test2.txt 
+  180  ls
+  181  grep study devops_test2.txt 
+  182  grep -i study devops_test2.txt 
+  183  ls
+  184  cat devops_test2
+  185  ls | tee devops_test2
+  186  cat devops_test2
+  187  ls | tee devops_test2
+  188  cat devops_test2
+  189  ls -a | tee devops_test2
+  190  ls
+  191  cat devops_test2
+  192  ls -a | tee devops_test2
+  193  diff devops_test2 devops_test2.txt 
+  194  diff -y devops_test2 devops_test2.txt 
+  195  df -h
+  196  df -h /
+  197  df -i
+  198  du -sh
+  199  du -sh devops_test2.txt 
+  200  ps -ef
+  201  ps aux
+  202  ps -ef |grep kamlesh
+  203  top
+  204  top -u
+  205  top - u
+  206  top -U
+  207  top -p 1234
+  208  free -h
+  209  free -m
+  210  free -g
+  211  vmstat
+  212  vmstat -h
+  213  vmstat
+  214  vmstat 2
+  215  vmstat -s
+  216  Uname -a
+  217  Uname - a
+  218  uname -a
+  219  uname -r
+  220  uname -m
+  221  uptime 
+  222  uptime -p
+  223  uptime -s
+  224  date
+  225  who
+  226  whoami
+  227  who -b
+  228  which
+  229  which python
+  230  which ssh
+  231  id
+  232  id -u
+  233  id -ng
+  234  shutdown +10
+  235  sudo shutdown +10
+  236  shutdown -c
+  237  sudo shutdown -c
+  238  apt update
+  239  sudo apt update
+  240  apt install git
+  241  sudo apt install git
+  242  which git
+  243  sudo apt remove git
+  244  which git
+  245  cat/etc/passwd
+  246  cat|etc|passwd
+  247  ls
+  248  rm devops_test2 hardlink.txt softlink.txt 
+  249  ls
+  250  rm test 
+  251  ls
+  252  ex
+  253  exit 
+  254  ls
+  255  cd Ramun_devops/
+  256  ls
+  257  cd devops-1/
+  258  ls
+  259  whoiam
+  260  whoami
+  261  pwd
+  262  useradd -m Raj
+  263  sudo useradd -m raj
+  264  ls
+  265  passwd raj
+  266  sudo passwd raj
+  267  ls -l
+  268  cd ../..
+  269  ls
+  270  ls -l
+  271  pwd
+  272  ls
+  273  cd ..
+  274  ls
+  275  cd ..
+  276  ls
+  277  cd ..
+  278  ls
+  279  cd ..
+  280  ls
+  281  pwd
+  282  sudo useradd -m Jethalal
+  283  ls
+  284  cd -
+  285  ls
+  286  cd -
+  287  ls
+  288  cd ..
+  289  ls -l
+  290  cd usr/
+  291  ls
+  292  pwd
+  293  cd ../..
+  294  cd ..
+  295  pwd
+  296  echo $HOME
+  297  cd ~
+  298  echo $HOME
+  299  id
+  300  sudo useradd -m Ramun
+  301  id
+  302  ls -ld /home/ramun
+  303  id Ramun
+  304  ls /home
+  305  pwd
+  306  cd home
+  307  cd ~
+  308  pwd
+  309  su Ramun 
+  310  passwd Ramun ramun
+  311  passwd Ramun
+  312  sudo passwd Ramun
+  313  su Ramun 
+  314  su - Ramun 
+  315  sudo userdel raj 
+  316  cat/etc/passwd
+  317  sudo userdel Jethalal 
+  318  cat /etc/passwd
+  319  clear
+  320  cat /etc/passwd
+  321  su Ramun 
+  322  su - Ramun 
+  323  sudo userdel Ramun 
+  324  id
+  325  cat /etc/passwd
+  326  cat/etc/passwd
+  327  pwd
+  328  getent passwd
+  329  cat /etc/passwd
+  330  grep ramun /etc/passwd
+  331  grep Ramun /etc/passwd
+  332  cat /etc/group
+  333  ls -a
+  334  exit 
+  335  cd Ramun_devops/devops-1/
+  336  ls
+  337  sudo apt install zip
+  338  ls
+  339  zip -r  test.zip devops_test2.txt 
+  340  ls
+  341  cat devops_test2.txt 
+  342  ls
+  343  test.zip
+  344  cat test.zip 
+  345  ls
+  346  rm test.zip 
+  347  ls
+  348  touch rane.txt
+  349  touch sare.sh
+  350  ls
+  351  sudo zip file.zip devops_test2.txt rane.txt sare.sh 
+  352  ls
+  353  cat file.zip 
+  354  rm file.zip 
+  355  ls
+  356  mkdir zip_test
+  357  ls
+  358  mv devops_test2.txt rane.txt sare.sh zip_test/
+  359  ls
+  360  cd zip_test/
+  361  ls
+  362  cd ..
+  363  mkdir jadu
+  364  ls
+  365  zip  zip.zip zip_test/ jadu/
+  366  ls
+  367  unzip zip.zip 
+  368  sudo unzip zip.zip 
+  369  unzip -l zip.zip
+  370  cd ..
+  371  unzip zip.zip
+  372  cd devops-1/
+  373  ls
+  374  rm zip.zip 
+  375  ls
+  376  ls -l
+  377  chmod 755 jadu/
+  378  ls -l
+  379  chmod u-r jadu/
+  380  ls -l
+  381  sudo chmod u-r jadu/
+  382  ls -l
+  383  cd ../..
+  384  git --version
+  385  which git
+  386  exit
+  387  ls -l
+  388  git init
+  389  exit
+  390  git --version
+  391  exit 
+  392  ls
+  393  ls -l
+  394  git status
+  395  git add testing-devops.py 
+  396  git status
+  397  rm --cached testing-devops.py 
+  398  git status
+  399  git rm --cached testing-devops.py 
+  400  git status 
+  401  git add testing-devops.py 
+  402  git status
+  403  git commit testing-devops.py 
+  404  git commit -m  testing-devops.py 
+  405  git config --global --list
+  406  git commit -m  testing-devops.py 
+  407  rm testing-devops.py 
+  408  git status
+  409  git restore testing-devops.py 
+  410  git status
