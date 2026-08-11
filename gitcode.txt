@@ -408,3 +408,16 @@
   408  git status
   409  git restore testing-devops.py 
   410  git status
+    410  git status
+  411  history
+  412  git add gitcode.txt 
+  413  git status
+  414  git commit -m "done"
+  415  ls -l
+  416  git remote add origin https://github.comops-github-lab.git
+  417  git remote -v
+  418  git push -u origin master
+  419  git remote set-url origin Ramun-devops
+  420  git remote -v
+  421  git push origin master
+  422  histor
